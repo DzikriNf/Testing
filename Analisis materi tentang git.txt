@@ -1,0 +1,20 @@
+Pengenalan tentang Git
+Git adalah sistem pengontrol versi yang diperkenalkan oleh Linus Torvalds pada tahun 2005. Tujuannya adalah mengelola perubahan dalam kode sumber perangkat lunak dengan lebih efisien dan terstruktur. Git memberikan alat bagi pengembang untuk melacak, mengelola, dan berkolaborasi dalam pengembangan proyek perangkat lunak.
+
+Cara Kerja Git:
+Git beroperasi dengan menyimpan snapshot (potret) dari keseluruhan proyek pada setiap tahap perubahan. Ini berbeda dengan pengontrol versi tradisional yang hanya menyimpan perbedaan antara revisi. Setiap perubahan pada kode disimpan sebagai "commit," yang mencatat perubahan pada berkas-berkas tertentu. Setiap commit memiliki informasi tentang apa yang berubah dan siapa yang membuat perubahan tersebut.
+
+Fitur Utama Git:
+Pengontrol Versi Terdistribusi: Setiap anggota tim memiliki repositori lokal lengkap, memungkinkan pengembang bekerja di lingkungan terisolasi sebelum menggabungkan perubahan ke repositori pusat. Ini mencegah masalah konflik dan memungkinkan kerja mandiri.
+
+Branching dan Merging: Git memungkinkan pembuatan cabang terpisah (branch) untuk mengembangkan fitur atau menangani masalah. Setelah selesai, perubahan di dalam cabang dapat digabungkan kembali ke cabang utama (merge).
+Kolaborasi dan Konflik Pemecahan: Dalam lingkungan tim, Git memungkinkan anggota bekerja secara paralel di cabang-cabang berbeda. Ketika ada konflik antara perubahan, Git membantu dalam memecahkan konflik tersebut dengan interaksi pengembang.
+
+Penerapan dalam CI/CD:
+Git juga penting dalam praktik Continuous Integration (CI) dan Continuous Deployment (CD). Dalam CI, Git memfasilitasi penggabungan otomatis perubahan dan pengujian yang cepat untuk memastikan kualitas. Dalam CD, Git memastikan perubahan yang lolos pengujian diintegrasikan ke lingkungan produksi.
+
+Keuntungan dan Tantangan:
+Git memudahkan manajemen perubahan dalam kode, meningkatkan kerja tim dengan kolaborasi yang lebih baik, dan memastikan kualitas dengan integrasi CI/CD. Tantangan bisa muncul saat menghadapi konflik penggabungan yang rumit atau dalam menjaga repositori tetap terstruktur saat proyek berkembang.
+
+Kesimpulan:
+Git telah mengubah cara pengembangan perangkat lunak dilakukan. Dengan fokus pada manajemen perubahan yang efisien dan kolaborasi yang efektif, Git membantu pengembang mengatasi tantangan dalam pengembangan perangkat lunak dan memungkinkan proyek berkembang secara lebih terstruktur dan adaptif.
